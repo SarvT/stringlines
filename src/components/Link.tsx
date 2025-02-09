@@ -1,10 +1,10 @@
 import { motion } from "framer-motion";
-import { useState } from "react";
+import { MouseEvent, useState } from "react";
 
-export default function Line2() {
+export default function Link() {
   const [pathD, setPathD] = useState("M0 250 Q425 250, 845 250");
 
-  const handleMouseMove = (event) => {
+  const handleMouseMove = (event:MouseEvent<SVGSVGElement>) => {
     const { clientY } = event;
     const svgRect = event.currentTarget.getBoundingClientRect();
     const relativeY = clientY - svgRect.top;

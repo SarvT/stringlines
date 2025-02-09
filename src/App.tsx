@@ -1,12 +1,16 @@
 import "./App.css";
+import ElasticString from "./components/ElasticString";
+import Elasty from "./components/Elasty";
 import Line from "./components/Line";
-import Line2 from "./components/Line2";
+import Link from "./components/Link";
 
 function App() {
   return (
     <>
       <Line />
-      <Line2 />
+      <Link />
+      <ElasticString/>
+      <Elasty/>
     </>
   );
 }
