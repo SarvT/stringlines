@@ -1,4 +1,7 @@
-# StringLines
+# StringLines 
+![logo](https://github.com/user-attachments/assets/fc4aaf33-9122-4fa5-a66e-4d77b9301057)
+
+[VISIT](https://stringlines.vercel.app/)
 
 This project is a React application that renders dynamic SVG lines that interact with the user's mouse cursor. Built with TypeScript and Tailwind CSS, it provides an engaging visual effect as users move their cursor across the screen.
 
